@@ -10,7 +10,11 @@ set shiftwidth=4
 set cursorline
 set nowrap
 set t_Co=256
-"set rtp+=/mnt/go/thirdsrc/go-lib/src/github.com/golang/lint/misc/vim
+
+autocmd FileType html,css,xml,yaml,yml set ai
+autocmd FileType html,css,xml,yaml,yml set sw=2
+autocmd FileType html,css,xml,yaml,yml set ts=2
+autocmd FileType html,css,xml,yaml,yml set sts=2
 
 "set background=dark
 "colorscheme solarized
